@@ -1,8 +1,8 @@
 "use client";
-// pages/Home.js
+// pages/Contact.js
 import { useTheme } from "@/components/ThemeContext";
 
-const Home = () => {
+const Contact = () => {
   const { darkMode } = useTheme();
 
   return (
@@ -11,9 +11,9 @@ const Home = () => {
         darkMode ? "text-white bg-slate-700" : "text-black bg-stone-50"
       }`}
     >
-      <h1 className="text-4xl font-bold text-center">Home Page</h1>
+      <h1 className="text-4xl font-bold text-center ">Contact Page</h1>
     </div>
   );
 };
 
-export default Home;
+export default Contact;
